@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<launch>
+
+    <!-- sound player -->
+    <node pkg="ros_madplay_player" type="ros_madplay_player" name="ros_madplay_player" output="screen">
+      <remap from="play_sound_file" to="jp_thormang3_demo/sound/play_sound_file" />
+    </node>
+
+    <!-- robotis op3 demo -->
+    <node pkg="jp_thormang3_demo" type="jp_thormang3_demo" name="jp_thormang3_demo" output="screen" />
+
+</launch>
+
