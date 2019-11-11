@@ -15,5 +15,6 @@
   <url type="bugtracker">https://github.com/ROBOTIS-GIT/ROBOTIS-THORMANG-PPC/issues</url>
   <buildtool_depend>catkin</buildtool_depend>
   <exec_depend>jp_thormang3_common_demo</exec_depend>
+  <exec_depend>jp_thormang3_sensors</exec_depend>
   <export><metapackage/></export>
 </package>
